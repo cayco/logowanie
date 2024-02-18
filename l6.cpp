@@ -18,4 +18,5 @@ int main()
     else
         cout << "Liczba 6 nie wystepuje w liczbie a";
     return 0;
+    
 }
