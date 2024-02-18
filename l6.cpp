@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-
+//.hkhh
     std::string wprowadzonaLiczba;
     float podzielonaLiczba;
     cout << "Podaj liczbe calkowita (a): ";
@@ -18,5 +18,7 @@ int main()
     else
         cout << "Liczba 6 nie wystepuje w liczbie a";
     return 0;
+
+
     
 }
