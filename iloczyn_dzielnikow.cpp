@@ -5,26 +5,15 @@ int main()
 {
 
     int a;
-    cout << "Prosze podac a: " << endl;
+    cout << "Prosze podac liczbe: " << endl;
     cin >> a;
-    if 
-    int dzielnik = 1, dzielnikliczby;
-    int iloczyndzielnikow = 1;
-    while (dzielnik <= a / 2)
+    int dzielnik = 1;
+
+    dzielnik++;
+    while (dzielnik <= a / 2 && a % dzielnik == 0)
     {
-        dzielnik++;
-
-        if (a % dzielnik == 0)
-        {
-            dzielnikliczby = dzielnik;
-            iloczyndzielnikow = dzielnik * iloczyndzielnikow;
-            cout << "dzielnik liczby to: " << dzielnikliczby << endl;
-        }
+        cout << "Podana liczba jest liczba zlozona" << endl;
     }
-
-    if (a!=0) 
-        cout << "Iloczyn dzielnikow wlasciwych liczby 'a' wynosi: " << iloczyndzielnikow << endl;
-    else
-        cout << "Zero nie ma dzielnikow" ;
+    cout << "Podana liczba jest liczba pierwsza" << endl;
     return 0;
 }
